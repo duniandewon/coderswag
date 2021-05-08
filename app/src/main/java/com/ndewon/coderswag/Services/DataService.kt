@@ -2,7 +2,6 @@ package com.ndewon.coderswag.Services
 
 import com.ndewon.coderswag.Models.Category
 import com.ndewon.coderswag.Models.Product
-import com.ndewon.coderswag.R
 
 object DataService {
     val categories = listOf(
@@ -42,4 +41,6 @@ object DataService {
             else -> listOf<Product>()
         }
     }
+
+    fun getProductItem() {}
 }
